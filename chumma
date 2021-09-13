@@ -1,0 +1,73 @@
+"sellerid":"9680",
+"storeId": "262",
+"cancelDeliveredOrderOrderStatusId":"cancelDeliverOrderOrderStatusId",
+"cancelDeliverOrderFromDate":"cancelDeliverOrderFromDate",
+"cancelDeliverOrderToDate":"cancelDeliverOrderToDate",
+"cancelDeliverOrderOffset":"offset",
+"cancelDeliverOrderMax":"max"
+
+
+
+
+
+
+"functionName": "cancelledOrDeliveredOrder",
+"sellerid":"9680",
+"storeId": "262",
+"cancelDeliveredOrderOrderStatusId":"cancelDeliverOrderOrderStatusId",
+"cancelDeliverOrderFromDate":"cancelDeliverOrderFromDate",
+"cancelDeliverOrderToDate":"cancelDeliverOrderToDate",
+"cancelDeliverOrderOffset":"offset",
+"cancelDeliverOrderMax":"max"
+
+\
+
+
+
+
+storeData:[],
+         fromDate:"",
+         toDate:"",
+         search:"",
+         orderTotal:0,
+         orderTotalCount:0,
+         orderCount:0,
+         activeCage:1
+render(){
+  return(
+    <div >   <Example/>
+               <h1>list of lists</h1>
+               <table className="table table-bordered">
+                   <thead>
+                   <td>customer id</td>
+                   <td>customer name</t
+
+         \
+
+
+
+
+          storeData:data.data.result.storeResult,
+          fromDate:data.data.result.fromDate,
+          toDate:data.data.result.toDate,
+          orderTotal:data.data.result.orderTotal,
+          orderTotalCount:data.data.result.orderTotalCount,
+          orderCount:data.data.result.totalCount,
+
+
+
+
+
+
+          { this.state.orderCount > 10 ?
+        <div className="pages">
+        <Pagination
+          activePage={this.state.activePage}
+          itemsCountPerPage={1}
+          totalItemsCount={this.state.orderCount}
+          pageRangeDisplayed={5}
+          onChange={this.handlePageChange.bind(this)}
+        />
+      </div>
+      :""}
+      </div>
